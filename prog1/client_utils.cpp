@@ -4,7 +4,6 @@
 int is_line_correct(std::string msg) {
     if (LIMIT < msg.size() || msg.size() == 0)
         return (0);
-    std::cout<<msg.size()<<std::endl;
     int i = 0;
     int k;
 
